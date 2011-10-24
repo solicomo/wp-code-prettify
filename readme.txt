@@ -3,7 +3,7 @@ Contributors: Soli
 Tags: wordpress, google, code, prettify
 Requires at least: 3.0
 Tested up to: 3.2.1
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 
 This plugin enable syntax highlighting of code snippets in your post using Google Code Prettify.
 
@@ -35,6 +35,9 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 1. The settings menu
 
 == Changelog ==
+
+= 0.1.2 =
+* fix "You do not have sufficient permissions to access this page.".
 
 = 0.1.1 =
 * update version number.
