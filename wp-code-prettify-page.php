@@ -51,7 +51,7 @@ function WPCodePrettify_Options_Page() {
 	<h3 class="hndle"><?php _e('Settings', 'wp-code-prettify'); ?></h3>
 	<?php $wp_code_prettify = maybe_unserialize(get_option('wp_code_prettify')); ?>
 
-	<form method="post" action="<?php echo get_bloginfo("wpurl"); ?>/wp-admin/options-general.php?page=<?php echo plugin_basename(__FILE__); ?>">
+	<form method="post" action="<?php echo get_bloginfo("wpurl"); ?>/wp-admin/options-general.php?page=wp-code-prettify">
 	<input type="hidden" name="wpcp_update_options" value="Y">
 
 	<script type="text/javascript">
@@ -151,7 +151,7 @@ function WPCodePrettify_Options_Page() {
 }
 
 function WPCodePrettify_Menu() {
-	add_options_page(__('WP Code Prettify'), __('WP Code Prettify'), 10, "wp-code-prettify", array(__CLASS__,'WPCodePrettify_Options_Page'));
+	add_options_page(__('WP Code Prettify'), __('WP Code Prettify'), 10, 'wp-code-prettify', array(__CLASS__,'WPCodePrettify_Options_Page'));
 }
 
 } // end of class WPCodePrettifyPage
