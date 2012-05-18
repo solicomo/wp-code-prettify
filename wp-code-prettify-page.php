@@ -133,7 +133,7 @@ function WPCodePrettify_Options_Page() {
 	<div id="wpcp-about" class="postbox">
 	<h3 class="hndle"><?php _e('About this plugin', 'wp-code-prettify'); ?></h3>
 	<div class="inside"><ul>
-	<li><a href="http://www.cbug.org/category/wp-code-prettify/"><?php _e('Plugin URI', 'wp-code-prettify'); ?></a></li>
+	<li><a href="http://wordpress.org/extend/plugins/wp-code-prettify/"><?php _e('Plugin URI', 'wp-code-prettify'); ?></a></li>
 	<li><a href="http://www.cbug.org" target="_blank"><?php _e('Author URI', 'wp-code-prettify'); ?></a></li>
 	</ul></div>
 	</div>
