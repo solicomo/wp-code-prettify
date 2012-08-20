@@ -5,9 +5,11 @@ WP Code Prettify Page
 
 $wpcp_status = "normal";
 
-if($_POST['wpcp_update_options'] == 'Y') {
-	update_option("wp_code_prettify", maybe_serialize($_POST));
-	$wpcp_status = 'update_success';
+if(isset($_POST['wpcp_update_options'])) {
+	if($_POST['wpcp_update_options'] == 'Y') {
+		update_option("wp_code_prettify", maybe_serialize($_POST));
+		$wpcp_status = 'update_success';
+	}
 }
 
 if(!class_exists('WPCodePrettifyPage')) {
