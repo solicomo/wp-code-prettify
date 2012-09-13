@@ -43,8 +43,29 @@ function WPCodePrettify_Options_Page() {
 	<p><?php _e('<b>Note</b>: The browser must support javascript.', 'wp-code-prettify'); ?></p>
 	</div>
 
+	<!--right-->
+	<div class="postbox-container" style="float:right;width:300px;">
+	<div class="metabox-holder">
+	<div class="meta-box-sortables">
+
+	<!--about-->
+	<div id="wpcp-about" class="postbox">
+	<h3 class="hndle"><?php _e('About this plugin', 'wp-code-prettify'); ?></h3>
+	<div class="inside"><ul>
+	<li><a href="http://wordpress.org/extend/plugins/wp-code-prettify/"><?php _e('Plugin URI', 'wp-code-prettify'); ?></a></li>
+	<li><a href="http://www.cbug.org" target="_blank"><?php _e('Author URI', 'wp-code-prettify'); ?></a></li>
+	</ul></div>
+	</div>
+	<!--about end-->
+
+	<!--others-->
+	<!--others end-->
+
+	</div></div></div>
+	<!--right end-->
+
 	<!--left-->
-	<div class="postbox-container" style="width:75%;">
+	<div class="postbox-container" style="float:none;margin-right:320px;">
 	<div class="metabox-holder">
 	<div class="meta-box-sortabless">
 
@@ -126,34 +147,13 @@ function WPCodePrettify_Options_Page() {
 	</div></div></div>
 	<!--left end-->
 
-	<!--right-->
-	<div class="postbox-container" style="width:21%;">
-	<div class="metabox-holder">
-	<div class="meta-box-sortables">
-
-	<!--about-->
-	<div id="wpcp-about" class="postbox">
-	<h3 class="hndle"><?php _e('About this plugin', 'wp-code-prettify'); ?></h3>
-	<div class="inside"><ul>
-	<li><a href="http://wordpress.org/extend/plugins/wp-code-prettify/"><?php _e('Plugin URI', 'wp-code-prettify'); ?></a></li>
-	<li><a href="http://www.cbug.org" target="_blank"><?php _e('Author URI', 'wp-code-prettify'); ?></a></li>
-	</ul></div>
-	</div>
-	<!--about end-->
-
-	<!--others-->
-	<!--others end-->
-
-	</div></div></div>
-	<!--right end-->
-
 	</div>
 	</div>
 	<?php
 }
 
 function WPCodePrettify_Menu() {
-	add_options_page(__('WP Code Prettify'), __('WP Code Prettify'), 10, 'wp-code-prettify', array(__CLASS__,'WPCodePrettify_Options_Page'));
+	add_options_page(__('WP Code Prettify'), __('WP Code Prettify'), 'manage_options', 'wp-code-prettify', array(__CLASS__,'WPCodePrettify_Options_Page'));
 }
 
 } // end of class WPCodePrettifyPage
