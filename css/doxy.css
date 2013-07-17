@@ -21,7 +21,7 @@
  var codesite_token = null;
  
  
- var CS_env = {"domainName":null,"relativeBaseUrl":"","loggedInUserEmail":null,"assetHostPath":"https://ssl.gstatic.com/codesite/ph","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/3783617020303179221","projectHomeUrl":"/p/google-code-prettify","projectName":"google-code-prettify","profileUrl":null,"token":null};
+ var CS_env = {"token":null,"projectHomeUrl":"/p/google-code-prettify","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/3783617020303179221","projectName":"google-code-prettify","profileUrl":null,"assetHostPath":"https://ssl.gstatic.com/codesite/ph","domainName":null,"loggedInUserEmail":null,"relativeBaseUrl":""};
  var _gaq = _gaq || [];
  _gaq.push(
  ['siteTracker._setAccount', 'UA-18071-1'],
@@ -40,7 +40,7 @@
  </script>
  
  
- <title>desert.css - 
+ <title>doxy.css - 
  google-code-prettify -
  
  
@@ -145,7 +145,7 @@
  
  
  <a href="#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
- | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdesert.css&amp;followup=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdesert.css" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdoxy.css&amp;followup=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdoxy.css" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
  
  </span>
 
@@ -322,7 +322,7 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
  <span id="crumb_root">
  
  <a href="/p/google-code-prettify/source/browse/">svn</a>/&nbsp;</span>
- <span id="crumb_links" class="ifClosed"><a href="/p/google-code-prettify/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span><a href="/p/google-code-prettify/source/browse/trunk/styles/">styles</a><span class="sp">/&nbsp;</span>desert.css</span>
+ <span id="crumb_links" class="ifClosed"><a href="/p/google-code-prettify/source/browse/trunk/">trunk</a><span class="sp">/&nbsp;</span><a href="/p/google-code-prettify/source/browse/trunk/styles/">styles</a><span class="sp">/&nbsp;</span>doxy.css</span>
  
  
 
@@ -333,14 +333,6 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
  <td nowrap="nowrap" width="33%" align="right">
  <table cellpadding="0" cellspacing="0" style="font-size: 100%"><tr>
  
- 
- <td class="flipper">
- <ul class="leftside">
- 
- <li><a href="/p/google-code-prettify/source/browse/trunk/styles/desert.css?r=198" title="Previous">&lsaquo;r198</a></li>
- 
- </ul>
- </td>
  
  <td class="flipper"><b>r303</b></td>
  
@@ -463,6 +455,96 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
 ><tr id="gr_svn303_34"
 
 ><td id="34"><a href="#34">34</a></td></tr
+><tr id="gr_svn303_35"
+
+><td id="35"><a href="#35">35</a></td></tr
+><tr id="gr_svn303_36"
+
+><td id="36"><a href="#36">36</a></td></tr
+><tr id="gr_svn303_37"
+
+><td id="37"><a href="#37">37</a></td></tr
+><tr id="gr_svn303_38"
+
+><td id="38"><a href="#38">38</a></td></tr
+><tr id="gr_svn303_39"
+
+><td id="39"><a href="#39">39</a></td></tr
+><tr id="gr_svn303_40"
+
+><td id="40"><a href="#40">40</a></td></tr
+><tr id="gr_svn303_41"
+
+><td id="41"><a href="#41">41</a></td></tr
+><tr id="gr_svn303_42"
+
+><td id="42"><a href="#42">42</a></td></tr
+><tr id="gr_svn303_43"
+
+><td id="43"><a href="#43">43</a></td></tr
+><tr id="gr_svn303_44"
+
+><td id="44"><a href="#44">44</a></td></tr
+><tr id="gr_svn303_45"
+
+><td id="45"><a href="#45">45</a></td></tr
+><tr id="gr_svn303_46"
+
+><td id="46"><a href="#46">46</a></td></tr
+><tr id="gr_svn303_47"
+
+><td id="47"><a href="#47">47</a></td></tr
+><tr id="gr_svn303_48"
+
+><td id="48"><a href="#48">48</a></td></tr
+><tr id="gr_svn303_49"
+
+><td id="49"><a href="#49">49</a></td></tr
+><tr id="gr_svn303_50"
+
+><td id="50"><a href="#50">50</a></td></tr
+><tr id="gr_svn303_51"
+
+><td id="51"><a href="#51">51</a></td></tr
+><tr id="gr_svn303_52"
+
+><td id="52"><a href="#52">52</a></td></tr
+><tr id="gr_svn303_53"
+
+><td id="53"><a href="#53">53</a></td></tr
+><tr id="gr_svn303_54"
+
+><td id="54"><a href="#54">54</a></td></tr
+><tr id="gr_svn303_55"
+
+><td id="55"><a href="#55">55</a></td></tr
+><tr id="gr_svn303_56"
+
+><td id="56"><a href="#56">56</a></td></tr
+><tr id="gr_svn303_57"
+
+><td id="57"><a href="#57">57</a></td></tr
+><tr id="gr_svn303_58"
+
+><td id="58"><a href="#58">58</a></td></tr
+><tr id="gr_svn303_59"
+
+><td id="59"><a href="#59">59</a></td></tr
+><tr id="gr_svn303_60"
+
+><td id="60"><a href="#60">60</a></td></tr
+><tr id="gr_svn303_61"
+
+><td id="61"><a href="#61">61</a></td></tr
+><tr id="gr_svn303_62"
+
+><td id="62"><a href="#62">62</a></td></tr
+><tr id="gr_svn303_63"
+
+><td id="63"><a href="#63">63</a></td></tr
+><tr id="gr_svn303_64"
+
+><td id="64"><a href="#64">64</a></td></tr
 ></table></pre>
 <pre><table width="100%"><tr class="nocursor"><td></td></tr></table></pre>
 </td>
@@ -471,137 +553,257 @@ contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>
 <pre class="prettyprint lang-css"><table id="src_table_0"><tr
 id=sl_svn303_1
 
-><td class="source">/* desert scheme ported from vim to google prettify */<br></td></tr
+><td class="source">/* Doxy pretty-printing styles. Used with prettify.js.  */<br></td></tr
 ><tr
 id=sl_svn303_2
 
-><td class="source">pre.prettyprint { display: block; background-color: #333 }<br></td></tr
+><td class="source"><br></td></tr
 ><tr
 id=sl_svn303_3
 
-><td class="source">pre .nocode { background-color: none; color: #000 }<br></td></tr
+><td class="source">pre .str, code .str { color: #fec243; } /* string  - eggyolk gold */<br></td></tr
 ><tr
 id=sl_svn303_4
 
-><td class="source">pre .str { color: #ffa0a0 } /* string  - pink */<br></td></tr
+><td class="source">pre .kwd, code .kwd { color: #8470FF; } /* keyword - light slate blue */<br></td></tr
 ><tr
 id=sl_svn303_5
 
-><td class="source">pre .kwd { color: #f0e68c; font-weight: bold }<br></td></tr
+><td class="source">pre .com, code .com { color: #32cd32; font-style: italic; } /* comment - green */<br></td></tr
 ><tr
 id=sl_svn303_6
 
-><td class="source">pre .com { color: #87ceeb } /* comment - skyblue */<br></td></tr
+><td class="source">pre .typ, code .typ { color: #6ecbcc; } /* type - turq green */<br></td></tr
 ><tr
 id=sl_svn303_7
 
-><td class="source">pre .typ { color: #98fb98 } /* type    - lightgreen */<br></td></tr
+><td class="source">pre .lit, code .lit { color: #d06; } /* literal - cherry red */<br></td></tr
 ><tr
 id=sl_svn303_8
 
-><td class="source">pre .lit { color: #cd5c5c } /* literal - darkred */<br></td></tr
+><td class="source">pre .pun, code .pun { color: #8B8970;  } /* punctuation - lemon chiffon4  */<br></td></tr
 ><tr
 id=sl_svn303_9
 
-><td class="source">pre .pun { color: #fff }    /* punctuation */<br></td></tr
+><td class="source">pre .pln, code .pln { color: #f0f0f0; } /* plaintext - white */<br></td></tr
 ><tr
 id=sl_svn303_10
 
-><td class="source">pre .pln { color: #fff }    /* plaintext */<br></td></tr
+><td class="source">pre .tag, code .tag { color: #9c9cff; } /* html/xml tag  (bluey)  */<br></td></tr
 ><tr
 id=sl_svn303_11
 
-><td class="source">pre .tag { color: #f0e68c; font-weight: bold } /* html/xml tag    - lightyellow */<br></td></tr
+><td class="source">pre .htm, code .htm { color: #dda0dd; } /* html tag  light purply*/<br></td></tr
 ><tr
 id=sl_svn303_12
 
-><td class="source">pre .atn { color: #bdb76b; font-weight: bold } /* attribute name  - khaki */<br></td></tr
+><td class="source">pre .xsl, code .xsl { color: #d0a0d0; } /* xslt tag  light purply*/<br></td></tr
 ><tr
 id=sl_svn303_13
 
-><td class="source">pre .atv { color: #ffa0a0 } /* attribute value - pink */<br></td></tr
+><td class="source">pre .atn, code .atn { color: #46eeee; font-weight: normal;} /* html/xml attribute name  - lt turquoise */<br></td></tr
 ><tr
 id=sl_svn303_14
 
-><td class="source">pre .dec { color: #98fb98 } /* decimal         - lightgreen */<br></td></tr
+><td class="source">pre .atv, code .atv { color: #EEB4B4; } /* html/xml attribute value - rosy brown2 */<br></td></tr
 ><tr
 id=sl_svn303_15
 
-><td class="source"><br></td></tr
+><td class="source">pre .dec, code .dec { color: #3387CC; } /* decimal - blue */<br></td></tr
 ><tr
 id=sl_svn303_16
 
-><td class="source">/* Specify class=linenums on a pre to get line numbering */<br></td></tr
+><td class="source"><br></td></tr
 ><tr
 id=sl_svn303_17
 
-><td class="source">ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */<br></td></tr
+><td class="source">a {<br></td></tr
 ><tr
 id=sl_svn303_18
 
-><td class="source">li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }<br></td></tr
+><td class="source">  text-decoration: none;<br></td></tr
 ><tr
 id=sl_svn303_19
 
-><td class="source">/* Alternate shading for lines */<br></td></tr
+><td class="source">}<br></td></tr
 ><tr
 id=sl_svn303_20
 
-><td class="source">li.L1,li.L3,li.L5,li.L7,li.L9 { }<br></td></tr
+><td class="source">pre.prettyprint, code.prettyprint {<br></td></tr
 ><tr
 id=sl_svn303_21
 
-><td class="source"><br></td></tr
+><td class="source">  font-family:&#39;Droid Sans Mono&#39;,&#39;CPMono_v07 Bold&#39;,&#39;Droid Sans&#39;;<br></td></tr
 ><tr
 id=sl_svn303_22
 
-><td class="source">@media print {<br></td></tr
+><td class="source">  font-weight: bold;<br></td></tr
 ><tr
 id=sl_svn303_23
 
-><td class="source">  pre.prettyprint { background-color: none }<br></td></tr
+><td class="source">  font-size: 9pt;<br></td></tr
 ><tr
 id=sl_svn303_24
 
-><td class="source">  pre .str, code .str { color: #060 }<br></td></tr
+><td class="source">  background-color: #0f0f0f;<br></td></tr
 ><tr
 id=sl_svn303_25
 
-><td class="source">  pre .kwd, code .kwd { color: #006; font-weight: bold }<br></td></tr
+><td class="source">  -moz-border-radius: 8px;<br></td></tr
 ><tr
 id=sl_svn303_26
 
-><td class="source">  pre .com, code .com { color: #600; font-style: italic }<br></td></tr
+><td class="source">  -webkit-border-radius: 8px;<br></td></tr
 ><tr
 id=sl_svn303_27
 
-><td class="source">  pre .typ, code .typ { color: #404; font-weight: bold }<br></td></tr
+><td class="source">  -o-border-radius: 8px;<br></td></tr
 ><tr
 id=sl_svn303_28
 
-><td class="source">  pre .lit, code .lit { color: #044 }<br></td></tr
+><td class="source">  -ms-border-radius: 8px;<br></td></tr
 ><tr
 id=sl_svn303_29
 
-><td class="source">  pre .pun, code .pun { color: #440 }<br></td></tr
+><td class="source">  -khtml-border-radius: 8px;<br></td></tr
 ><tr
 id=sl_svn303_30
 
-><td class="source">  pre .pln, code .pln { color: #000 }<br></td></tr
+><td class="source">  border-radius: 8px;<br></td></tr
 ><tr
 id=sl_svn303_31
 
-><td class="source">  pre .tag, code .tag { color: #006; font-weight: bold }<br></td></tr
+><td class="source">}  /*  background is black (well, just a tad less dark )  */<br></td></tr
 ><tr
 id=sl_svn303_32
 
-><td class="source">  pre .atn, code .atn { color: #404 }<br></td></tr
+><td class="source"><br></td></tr
 ><tr
 id=sl_svn303_33
 
-><td class="source">  pre .atv, code .atv { color: #060 }<br></td></tr
+><td class="source">pre.prettyprint {<br></td></tr
 ><tr
 id=sl_svn303_34
+
+><td class="source">  width: 95%;<br></td></tr
+><tr
+id=sl_svn303_35
+
+><td class="source">  margin: 1em auto;<br></td></tr
+><tr
+id=sl_svn303_36
+
+><td class="source">  padding: 1em;<br></td></tr
+><tr
+id=sl_svn303_37
+
+><td class="source">  white-space: pre-wrap;<br></td></tr
+><tr
+id=sl_svn303_38
+
+><td class="source">}<br></td></tr
+><tr
+id=sl_svn303_39
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn303_40
+
+><td class="source">pre.prettyprint a, code.prettyprint a {<br></td></tr
+><tr
+id=sl_svn303_41
+
+><td class="source">   text-decoration:none;<br></td></tr
+><tr
+id=sl_svn303_42
+
+><td class="source">}<br></td></tr
+><tr
+id=sl_svn303_43
+
+><td class="source">/* Specify class=linenums on a pre to get line numbering; line numbers themselves are the same color as punctuation */<br></td></tr
+><tr
+id=sl_svn303_44
+
+><td class="source">ol.linenums { margin-top: 0; margin-bottom: 0; color: #8B8970; } /* IE indents via margin-left */<br></td></tr
+><tr
+id=sl_svn303_45
+
+><td class="source">li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }<br></td></tr
+><tr
+id=sl_svn303_46
+
+><td class="source">/* Alternate shading for lines */<br></td></tr
+><tr
+id=sl_svn303_47
+
+><td class="source">li.L1,li.L3,li.L5,li.L7,li.L9 { }<br></td></tr
+><tr
+id=sl_svn303_48
+
+><td class="source"><br></td></tr
+><tr
+id=sl_svn303_49
+
+><td class="source">/* print is mostly unchanged from default at present  */<br></td></tr
+><tr
+id=sl_svn303_50
+
+><td class="source">@media print {<br></td></tr
+><tr
+id=sl_svn303_51
+
+><td class="source">  pre.prettyprint, code.prettyprint { background-color: #fff;  }<br></td></tr
+><tr
+id=sl_svn303_52
+
+><td class="source">  pre .str, code .str { color: #088; }<br></td></tr
+><tr
+id=sl_svn303_53
+
+><td class="source">  pre .kwd, code .kwd { color: #006; font-weight: bold; }<br></td></tr
+><tr
+id=sl_svn303_54
+
+><td class="source">  pre .com, code .com { color: #oc3; font-style: italic; }<br></td></tr
+><tr
+id=sl_svn303_55
+
+><td class="source">  pre .typ, code .typ { color: #404; font-weight: bold; }<br></td></tr
+><tr
+id=sl_svn303_56
+
+><td class="source">  pre .lit, code .lit { color: #044; }<br></td></tr
+><tr
+id=sl_svn303_57
+
+><td class="source">  pre .pun, code .pun { color: #440; }<br></td></tr
+><tr
+id=sl_svn303_58
+
+><td class="source">  pre .pln, code .pln { color: #000; }<br></td></tr
+><tr
+id=sl_svn303_59
+
+><td class="source">  pre .tag, code .tag { color: #b66ff7; font-weight: bold; }<br></td></tr
+><tr
+id=sl_svn303_60
+
+><td class="source">  pre .htm, code .htm { color: #606; font-weight: bold; }<br></td></tr
+><tr
+id=sl_svn303_61
+
+><td class="source">  pre .xsl, code .xsl { color: #606; font-weight: bold; }<br></td></tr
+><tr
+id=sl_svn303_62
+
+><td class="source">  pre .atn, code .atn { color: #c71585;  font-weight: normal; }<br></td></tr
+><tr
+id=sl_svn303_63
+
+><td class="source">  pre .atv, code .atv { color: #088;  font-weight: normal; }<br></td></tr
+><tr
+id=sl_svn303_64
 
 ><td class="source">}<br></td></tr
 ></table></pre>
@@ -721,13 +923,12 @@ id=sl_svn303_34
  <div id="changelog">
  <p>Change log</p>
  <div>
- <a href="/p/google-code-prettify/source/detail?spec=svn303&amp;r=227">r227</a>
+ <a href="/p/google-code-prettify/source/detail?spec=svn303&amp;r=235">r235</a>
  by mikesamuel
  on Feb 4, 2013
- &nbsp; <a href="/p/google-code-prettify/source/diff?spec=svn303&r=227&amp;format=side&amp;path=/trunk/styles/desert.css&amp;old_path=/trunk/styles/desert.css&amp;old=198">Diff</a>
+ &nbsp; <a href="/p/google-code-prettify/source/diff?spec=svn303&r=235&amp;format=side&amp;path=/trunk/styles/doxy.css&amp;old_path=/trunk/styles/doxy.css&amp;old=">Diff</a>
  </div>
- <pre>fixed selector in Desert style so that the
-background color shows properly</pre>
+ <pre>added Doxy skin to styles gallert</pre>
  </div>
  
  
@@ -736,16 +937,20 @@ background color shows properly</pre>
  
  
  <script type="text/javascript">
- var detail_url = '/p/google-code-prettify/source/detail?r=227&spec=svn303';
- var publish_url = '/p/google-code-prettify/source/detail?r=227&spec=svn303#publish';
+ var detail_url = '/p/google-code-prettify/source/detail?r=235&spec=svn303';
+ var publish_url = '/p/google-code-prettify/source/detail?r=235&spec=svn303#publish';
  // describe the paths of this revision in javascript.
  var changed_paths = [];
  var changed_urls = [];
  
- changed_paths.push('/trunk/styles/desert.css');
- changed_urls.push('/p/google-code-prettify/source/browse/trunk/styles/desert.css?r\x3d227\x26spec\x3dsvn303');
+ changed_paths.push('/trunk/styles/doxy.css');
+ changed_urls.push('/p/google-code-prettify/source/browse/trunk/styles/doxy.css?r\x3d235\x26spec\x3dsvn303');
  
- var selected_path = '/trunk/styles/desert.css';
+ var selected_path = '/trunk/styles/doxy.css';
+ 
+ 
+ changed_paths.push('/trunk/styles/index.html');
+ changed_urls.push('/p/google-code-prettify/source/browse/trunk/styles/index.html?r\x3d235\x26spec\x3dsvn303');
  
  
  function getCurrentPageIndex() {
@@ -809,9 +1014,13 @@ background color shows properly</pre>
  <table><tr><td>Go to:&nbsp;</td><td>
  <select name="files_in_rev" onchange="window.location=this.value">
  
- <option value="/p/google-code-prettify/source/browse/trunk/styles/desert.css?r=227&amp;spec=svn303"
+ <option value="/p/google-code-prettify/source/browse/trunk/styles/doxy.css?r=235&amp;spec=svn303"
  selected="selected"
- >/trunk/styles/desert.css</option>
+ >/trunk/styles/doxy.css</option>
+ 
+ <option value="/p/google-code-prettify/source/browse/trunk/styles/index.html?r=235&amp;spec=svn303"
+ 
+ >/trunk/styles/index.html</option>
  
  </select>
  </td></tr></table>
@@ -823,7 +1032,7 @@ background color shows properly</pre>
 
  <div style="white-space:nowrap">
  Project members,
- <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdesert.css&amp;followup=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdesert.css"
+ <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdoxy.css&amp;followup=https%3A%2F%2Fcode.google.com%2Fp%2Fgoogle-code-prettify%2Fsource%2Fbrowse%2Ftrunk%2Fstyles%2Fdoxy.css"
  >sign in</a> to write a code review</div>
 
 
@@ -844,46 +1053,7 @@ background color shows properly</pre>
  <div id="older_bubble">
  <p>Older revisions</p>
  
- 
- <div class="closed" style="margin-bottom:3px;" >
- <a class="ifClosed" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/plus.gif" ></a>
- <a class="ifOpened" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/minus.gif" ></a>
- <a href="/p/google-code-prettify/source/detail?spec=svn303&r=198">r198</a>
- by mikesamuel
- on Mar 30, 2012
- &nbsp; <a href="/p/google-code-prettify/source/diff?spec=svn303&r=198&amp;format=side&amp;path=/trunk/styles/desert.css&amp;old_path=/trunk/styles/desert.css&amp;old=135">Diff</a>
- <br>
- <pre class="ifOpened"><a title="Desert theme paints dark every &lt;pre&gt; background" class=closed_ref href="/p/google-code-prettify/issues/detail?id=196"> issue 196 </a>: desert theme affect pre
-elements that are not code</pre>
- </div>
- 
- <div class="closed" style="margin-bottom:3px;" >
- <a class="ifClosed" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/plus.gif" ></a>
- <a class="ifOpened" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/minus.gif" ></a>
- <a href="/p/google-code-prettify/source/detail?spec=svn303&r=135">r135</a>
- by mikesamuel
- on Mar 21, 2011
- &nbsp; <a href="/p/google-code-prettify/source/diff?spec=svn303&r=135&amp;format=side&amp;path=/trunk/styles/desert.css&amp;old_path=/trunk/styles/desert.css&amp;old=123">Diff</a>
- <br>
- <pre class="ifOpened">applied nocode patch to desert.css
-from <a title="Patch for /trunk/styles/desert.css" class=closed_ref href="/p/google-code-prettify/issues/detail?id=141"> issue 141 </a></pre>
- </div>
- 
- <div class="closed" style="margin-bottom:3px;" >
- <a class="ifClosed" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/plus.gif" ></a>
- <a class="ifOpened" onclick="return _toggleHidden(this)"><img src="https://ssl.gstatic.com/codesite/ph/images/minus.gif" ></a>
- <a href="/p/google-code-prettify/source/detail?spec=svn303&r=123">r123</a>
- by mikesamuel
- on Mar 4, 2011
- &nbsp; <a href="/p/google-code-prettify/source/diff?spec=svn303&r=123&amp;format=side&amp;path=/trunk/styles/desert.css&amp;old_path=/trunk/styles/desert.css&amp;old=">Diff</a>
- <br>
- <pre class="ifOpened">first draft of a themes gallery
-including the desert and sunburst VIM
-themes</pre>
- </div>
- 
- 
- <a href="/p/google-code-prettify/source/list?path=/trunk/styles/desert.css&start=227">All revisions of this file</a>
+ <a href="/p/google-code-prettify/source/list?path=/trunk/styles/doxy.css&start=235">All revisions of this file</a>
  </div>
  </div>
  <div class="round1"></div>
@@ -899,10 +1069,10 @@ themes</pre>
  <div id="fileinfo_bubble">
  <p>File info</p>
  
- <div>Size: 1645 bytes,
- 34 lines</div>
+ <div>Size: 2726 bytes,
+ 64 lines</div>
  
- <div><a href="//google-code-prettify.googlecode.com/svn/trunk/styles/desert.css">View raw file</a></div>
+ <div><a href="//google-code-prettify.googlecode.com/svn/trunk/styles/doxy.css">View raw file</a></div>
  </div>
  
  <div id="props">
@@ -1045,9 +1215,9 @@ themes</pre>
  var codereviews;
  function revsOnLoadHandler() {
  // register our source container with the commenting code
- var paths = {'svn303': '/trunk/styles/desert.css'}
+ var paths = {'svn303': '/trunk/styles/doxy.css'}
  codereviews = CR_controller.setup(
- {"domainName":null,"relativeBaseUrl":"","loggedInUserEmail":null,"assetHostPath":"https://ssl.gstatic.com/codesite/ph","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/3783617020303179221","projectHomeUrl":"/p/google-code-prettify","projectName":"google-code-prettify","profileUrl":null,"token":null}, '', 'svn303', paths,
+ {"token":null,"projectHomeUrl":"/p/google-code-prettify","assetVersionPath":"https://ssl.gstatic.com/codesite/ph/3783617020303179221","projectName":"google-code-prettify","profileUrl":null,"assetHostPath":"https://ssl.gstatic.com/codesite/ph","domainName":null,"loggedInUserEmail":null,"relativeBaseUrl":""}, '', 'svn303', paths,
  CR_BrowseIntegrationFactory);
  
  codereviews.registerActivityListener(CR_ActivityType.REVEAL_DRAFT_PLATE, showPublishInstructions);
