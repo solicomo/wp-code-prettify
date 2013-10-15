@@ -36,6 +36,9 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 
 == Changelog ==
 
+= 0.1.9 =
+* update google code prettify to 4-Mar-2013 (fix css files)
+
 = 0.1.8 =
 * update google code prettify to 4-Mar-2013
 
