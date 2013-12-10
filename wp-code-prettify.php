@@ -81,7 +81,7 @@ function WPCP_Head($content) {
 
 	if($wp_code_prettify['load_pos'] == 'head') {
 
-		$plugin_path = WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FILE__ ) );
+		$plugin_path = site_url('/wp-content/plugins/' . dirname( plugin_basename( __FILE__ ) ));
 		?>
 
 		<!--wp code prettify-->
@@ -112,7 +112,7 @@ function WPCP_Footer($content) {
 		return;
 	}
 
-	$plugin_path = WP_PLUGIN_URL . '/' . dirname( plugin_basename( __FILE__ ) );
+	$plugin_path = site_url('/wp-content/plugins/' . dirname( plugin_basename( __FILE__ ) ));
 	?>
 
 	<!--wp code prettify-->
