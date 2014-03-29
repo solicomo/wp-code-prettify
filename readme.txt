@@ -2,8 +2,8 @@
 Contributors: Soli
 Tags: wordpress, google, code, prettify
 Requires at least: 3.0
-Tested up to: 3.5.2
-Stable tag: 0.1.8
+Tested up to: 3.8.1
+Stable tag: 0.2.0
 
 This plugin enable syntax highlighting of code snippets in your post using Google Code Prettify.
 
@@ -22,7 +22,7 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 
 1. Upload the full directory into your wp-content/plugins directory
 2. Activate the plugin at the plugin administration page
-3. Open the plugin configuration page, which is located under "Settings -> WP Code Prettify" and customize settings. 
+3. Open the plugin configuration page, which is located under "Settings -> WP Code Prettify" and customize settings.
 
 == Frequently Asked Questions ==
 
@@ -35,6 +35,9 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 1. The settings menu
 
 == Changelog ==
+
+= 0.2.1 =
+* Tested up to: 3.8.1
 
 = 0.2.0 =
 * fix links of js/css files via https
@@ -53,7 +56,7 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 * Tested up to: 3.4.2
 
 = 0.1.5 =
-* fix "You do not have sufficient permissions to access this page.". 
+* fix "You do not have sufficient permissions to access this page.".
 
 = 0.1.4 =
 * fix "Notice: Undefined index: wpcp_update_options".

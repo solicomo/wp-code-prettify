@@ -58,6 +58,17 @@ function WPCodePrettify_Options_Page() {
 	</div>
 	<!--about end-->
 
+	<!-- donate -->
+	<div id="wpps-donate" class="postbox">
+	<h3 class="hndle"><?php _e('Donate', 'wp-post-signature'); ?></h3>
+	<div class="inside">
+	<center><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RQCN6KKJ2YEAN">
+		<img src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif" />
+	</a></center>
+	</div>
+	</div>
+	<!-- donate end -->
+
 	<!--others-->
 	<!--others end-->
 
