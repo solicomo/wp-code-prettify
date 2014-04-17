@@ -81,7 +81,7 @@ function WPCodePrettify_Options_Page() {
 	<div class="meta-box-sortabless">
 
 	<!--setting-->
-	<div id="wpcp-setting" class="postbox">
+	<div id="wpcp-setting" class="postbox" style="padding: 10px;">
 	<h3 class="hndle"><?php _e('Settings', 'wp-code-prettify'); ?></h3>
 	<?php $wp_code_prettify = maybe_unserialize(get_option('wp_code_prettify')); ?>
 
@@ -99,7 +99,7 @@ function WPCodePrettify_Options_Page() {
 		}
 	</script>
 
-	<table class="form-table">
+	<table class="form-table" style="clear:none;">
 		<tr>
 		<th scope="row"><?php _e('Where the js/css files should be loaded?', 'wp-code-prettify'); ?></th>
 		<td>
