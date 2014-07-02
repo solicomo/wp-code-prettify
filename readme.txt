@@ -2,8 +2,8 @@
 Contributors: Soli
 Tags: wordpress, google, code, prettify
 Requires at least: 3.0
-Tested up to: 3.9.0
-Stable tag: 0.2.1
+Tested up to: 3.9.1
+Stable tag: 0.2.2
 
 This plugin enable syntax highlighting of code snippets in your post using Google Code Prettify.
 
@@ -35,6 +35,10 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 1. The settings menu
 
 == Changelog ==
+
+= 0.2.3 =
+* fix js conflict with other plugins (Thanks the_champ <http://wordpress.org/support/profile/the_champ>)
+* Tested up to: 3.9.1
 
 = 0.2.2 =
 * Tested up to: 3.9.0

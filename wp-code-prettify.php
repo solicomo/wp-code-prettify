@@ -3,14 +3,14 @@
 Plugin Name: WP Code Prettify
 Plugin URI: http://wordpress.org/extend/plugins/wp-code-prettify/
 Description: This plugin enable syntax highlighting of code snippets in your post using Google Code Prettify.
-Version: 0.2.2
+Version: 0.2.3
 Author: Soli
 Author URI: http://www.cbug.org
 Text Domain: wp-code-prettify
 Domain Path: /lang
 
 
-Copyright (c) 2011
+Copyright (c) 2011-2014
 Released under the GPL license
 http://www.gnu.org/licenses/gpl.txt
 */
@@ -92,7 +92,19 @@ function WPCP_Head($content) {
 
 		<script type="text/javascript" src="<?php echo $plugin_path . '/js/prettify.js'; ?>"></script>
 		<script type="text/javascript">
-			window.onload = function(){prettyPrint();}
+			function wpCodePrettifyOnLoad(func){
+				var wpCodePrettifyOldOnLoad = window.onload;
+				if (typeof window.onload != 'function') {
+					window.onload = func
+				} else {
+					window.onload = function () {
+						wpCodePrettifyOldOnLoad();
+						func()
+					}
+				}
+			}
+
+			wpCodePrettifyOnLoad(function(){prettyPrint();});
 		</script>
 		<!--//wp code prettify-->
 
@@ -151,7 +163,19 @@ function WPCP_Footer($content) {
 
 	<script type="text/javascript" src="<?php echo $plugin_path . '/js/prettify.js'; ?>"></script>
 	<script type="text/javascript">
-		window.onload = function(){ prettyPrint();}
+		function wpCodePrettifyOnLoad(func){
+			var wpCodePrettifyOldOnLoad = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func
+			} else {
+				window.onload = function () {
+					wpCodePrettifyOldOnLoad();
+					func()
+				}
+			}
+		}
+
+		wpCodePrettifyOnLoad(function(){prettyPrint();});
 	</script>
 	<!--//wp code prettify-->
 	<?php
