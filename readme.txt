@@ -1,6 +1,6 @@
 === WP Code Prettify ===
 Contributors: Soli
-Tags: wordpress, google, code, prettify
+Tags: wordpress, google, code, prettify, highlight, highlighter, syntax, snippet, formatting, color, js, javascript
 Requires at least: 3.0
 Tested up to: 3.9.1
 Stable tag: 0.2.2
