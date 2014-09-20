@@ -193,7 +193,7 @@ function RegisterPluginLinks($links, $file) {
 	$base = plugin_basename(__FILE__);
 	if ($file ==$base) {
 		$links[] = '<a href="options-general.php?page=wp-code-prettify">' . __('Settings','wp-code-prettify') . '</a>';
-		$links[] = '<a href="http://www.cbug.org/category/wp-code-prettify/">' . __('FAQ','wp-code-prettify') . '</a>';
+		$links[] = '<a href="http://www.cbug.org/tag/wp-code-prettify/">' . __('FAQ','wp-code-prettify') . '</a>';
 	}
 	return $links;
 }
