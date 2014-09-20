@@ -164,7 +164,7 @@ function WPCodePrettify_Options_Page() {
 }
 
 function WPCodePrettify_Menu() {
-	add_options_page(__('WP Code Prettify'), __('WP Code Prettify'), 'manage_options', 'wp-code-prettify', array(__CLASS__,'WPCodePrettify_Options_Page'));
+	add_options_page(__('WP Code Prettify'), __('WP Code Prettify'), 'manage_options', 'wp-code-prettify', array($this,'WPCodePrettify_Options_Page'));
 }
 
 } // end of class WPCodePrettifyPage
