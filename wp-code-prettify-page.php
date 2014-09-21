@@ -169,4 +169,4 @@ function WPCodePrettify_Menu() {
 
 } // end of class WPCodePrettifyPage
 } // end of if(!class_exists('WPCodePrettifyPage'))
-?>
+

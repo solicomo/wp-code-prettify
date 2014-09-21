@@ -252,4 +252,4 @@ if(class_exists('WPCodePrettifyPage')) {
 		add_action('admin_menu', array(&$wpcodeprettify_page, 'WPCodePrettify_Menu'), 1);
 	}
 }
-?>
+
