@@ -78,10 +78,12 @@ function WPCP_Head($content) {
 	$this->there_is_some_code = false;
 
 	$wp_code_prettify = maybe_unserialize(get_option('wp_code_prettify'));
+	?>
 
+	<?php
 	if($wp_code_prettify['load_pos'] == 'head') {
 
-		$plugin_path = site_url('/wp-content/plugins/' . dirname( plugin_basename( __FILE__ ) ));
+		$plugin_path = plugins_url('', __FILE__);
 		?>
 
 		<!--wp code prettify-->
@@ -110,6 +112,11 @@ function WPCP_Head($content) {
 
 		<?php
 	}
+
+	echo '<!--wp code prettify-->';
+	if($this->is_str_and_not_empty($wp_code_prettify['head_custom'])) {
+		echo stripslashes($wp_code_prettify['head_custom']);
+	}
 }
 
 function WPCP_Footer($content) {
@@ -124,7 +131,7 @@ function WPCP_Footer($content) {
 		return;
 	}
 
-	$plugin_path = site_url('/wp-content/plugins/' . dirname( plugin_basename( __FILE__ ) ));
+	$plugin_path = plugins_url('', __FILE__);
 	?>
 
 	<!--wp code prettify-->
