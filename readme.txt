@@ -36,6 +36,9 @@ This plugin enable syntax highlighting of code snippets in your post using Googl
 
 == Changelog ==
 
+= 0.2.6 =
+* fix "undefined index: head_custom";
+
 = 0.2.5 =
 * custom HTML can be add into \<head\>, so you can include some js files, such as lang-matlab.js; 
 * using plugins_url() instead of content_url();
