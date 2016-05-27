@@ -2,14 +2,15 @@
 /*
 WP Code Prettify Page
 */
+require_once ABSPATH . WPINC . '/pluggable.php';
 
 $wpcp_status = "normal";
 
-if ( ! empty( $_POST ) 
-	&& check_admin_referer('wpcp_nonce_action', 'wpcp_nonce_field') 
-	&& current_user_can('update_plugins')
-	&& isset($_POST['wpcp_update_options']) 
-	&& $_POST['wpcp_update_options'] == 'Y') {
+if (is_array($_POST) && array_key_exists('wpcp_update_options', $_POST) && $_POST['wpcp_update_options'] === 'Y') {
+	check_admin_referer('wpcp_nonce_action', 'wpcp_nonce_field');
+
+	if (!current_user_can('update_plugins'))
+		die();
 
 	update_option("wp_code_prettify", maybe_serialize($_POST));
 	$wpcp_status = 'update_success';
