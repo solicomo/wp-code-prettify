@@ -5,11 +5,14 @@ WP Code Prettify Page
 
 $wpcp_status = "normal";
 
-if(isset($_POST['wpcp_update_options'])) {
-	if($_POST['wpcp_update_options'] == 'Y') {
-		update_option("wp_code_prettify", maybe_serialize($_POST));
-		$wpcp_status = 'update_success';
-	}
+if ( ! empty( $_POST ) 
+	&& check_admin_referer('wpcp_nonce_action', 'wpcp_nonce_field') 
+	&& current_user_can('update_plugins')
+	&& isset($_POST['wpcp_update_options']) 
+	&& $_POST['wpcp_update_options'] == 'Y') {
+
+	update_option("wp_code_prettify", maybe_serialize($_POST));
+	$wpcp_status = 'update_success';
 }
 
 if(!class_exists('WPCodePrettifyPage')) {
@@ -87,6 +90,7 @@ function WPCodePrettify_Options_Page() {
 
 	<form method="post" action="<?php echo get_bloginfo("wpurl"); ?>/wp-admin/options-general.php?page=wp-code-prettify">
 	<input type="hidden" name="wpcp_update_options" value="Y">
+	<?php wp_nonce_field('wpcp_nonce_action', 'wpcp_nonce_field'); ?>
 
 	<script type="text/javascript">
 		prettifyOnLoadHead = function() {
