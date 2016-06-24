@@ -9,7 +9,7 @@ $wpcp_status = "normal";
 if (is_array($_POST) && array_key_exists('wpcp_update_options', $_POST) && $_POST['wpcp_update_options'] === 'Y') {
 	check_admin_referer('wpcp_nonce_action', 'wpcp_nonce_field');
 
-	if (!current_user_can('update_plugins'))
+	if (!current_user_can('manage_options'))
 		die();
 
 	update_option("wp_code_prettify", maybe_serialize($_POST));
